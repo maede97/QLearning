@@ -11,4 +11,4 @@ An implementation of the Q-Learning-algorithm in C++.
  make
  ```
 
- An example program can be found in [example1.cpp](https://github.com/maede97/QLearning/examples/example1.cpp).
+ An example program can be found in [example1.cpp](https://github.com/maede97/QLearning/blob/master/examples/example1.cpp).

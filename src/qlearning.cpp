@@ -27,7 +27,7 @@ void QL::QLearner::setInitStateAndAction(BaseState *state, BaseAction *action)
 
 Eigen::MatrixXd QL::QLearner::getCurrentQ() const
 {
-    return Q_values_;
+    return Q_values_old_;
 }
 
 std::tuple<QL::BaseState *, QL::BaseAction *, QL::BaseState *> QL::QLearner::iterate()
